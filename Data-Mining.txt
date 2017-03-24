@@ -1,0 +1,60 @@
+Data Mining - Mineração de dados 
+
+1 - Introdução.
+    
+    -   Necessária devido ao constante crescimento de dados tornando inviavel a consulta pelos metodos convesionais (SQL).
+    
+    -   Mineração de dados geralmente é tida pelo processo análise matemática para derivar padrões e tendências nos dados afim de encontra informações ocultas em uma base de dados.
+    
+    -   Metodo tradicional de acesso a um banco de dados:
+        - O acesso é pré-definido pela lingagem SQL, com uma saida que consiste em um dado do banco que satisfaça a consulta e necessariamente precisa ser um subconjunto do banco.
+    
+         ______   SQL    ________           ____
+        |      |------->| (SGBD) |         |(BD)|
+        |client|        |  DBMS  |<------->| DB |
+        |______|<-------|________|         |____|
+                 results
+    
+    - Metodo Minerado de acesso a dados:
+        - Query(consulta): A consulta não precisa ser bem formada ou precisamente declarada. A mineração de dados pode não estar exatamente certo sobre o que você quer ver.
+        
+        - Data(dado): O dado acessado é geralmente uma versão diferente original do banco operado. Os dado são limpos e modificados para melhor apoiar o processo de mineração.
+        
+        - Output(saida): O dado resultado da consulta pela mineração de dados provevelmente não eh um subconjunto do bando de dados. A saida é a analise de alguns conteudos da base de dados.
+    
+    - A mineração de dados envolve diversos e distintos algoritmos para a realização de uma tarefa. Todos estes algoritmos tentam encaixar um modelo para o dado. Os algoritmos examinam o dado e determina um modelo mais apropriado para o dado previamente examinado. Algoritmos de mineração de dados podem ser caracterizados como consistindo de três partes:
+        - Modelo: O propósito do algoritmo é se adequar o modelo a uma determinado dado.  
+        
+        - Preferencia: Alguns critérios devem ser usados de forma a adequar um modelo ao outro.
+        
+        - Pesquisa: Todos os algoritmos requerem alguma tecnica de pesquisa de dados.
+    
+    - Data mining.
+        |
+        |====> Previsivo (Predictive):
+        |        |  
+        |        |===> Classificação.                   
+        |        |
+        |        |===> Regreção.
+        |        |   
+        |        |===> Análise de séries temporais.
+        |        |   
+        |        |===> Previsão.
+        |
+        |====> Descritivo (Descriptive):
+                 |  
+                 |===> Agrupamento(clustering).                   
+                 |
+                 |===> Sumarização.
+                 |   
+                 |===> Regras de associação.
+                 |   
+                 |===> Localização de sequencias.  
+        
+        - Modelo preditivo: Um modelo preditivo faz uma previsão sobre os valores dos dados usando os resultados encontrados de um dado diferente. Modelagem preditiva pode ser feita com base no uso de outros históricos de dados.
+        
+        - Modelo Descritivo: Um modelo descritivo identifica padrões ou relações nos dados. Diferente do modelo preditivo, o modelo descritivo serve como uma forma para explorar as propriedades de um dado examinado, não prevr novas propriedades.
+        
+    1.1 - Tarefas basicas da mineraçãode dados: Cada uma das tarefas à serem expanadas não necessariamente são individuais, podem ser combinadas em aplicações de mineração mais sofisticadas.
+        - Classificação: Classifica os dados em grupos ou classes predefinidos. É muitas vezes referida como aprendizagem supervisionada
+        
