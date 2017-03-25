@@ -56,5 +56,8 @@ Data Mining - Mineração de dados
         - Modelo Descritivo: Um modelo descritivo identifica padrões ou relações nos dados. Diferente do modelo preditivo, o modelo descritivo serve como uma forma para explorar as propriedades de um dado examinado, não prevr novas propriedades.
         
     1.1 - Tarefas basicas da mineraçãode dados: Cada uma das tarefas à serem expanadas não necessariamente são individuais, podem ser combinadas em aplicações de mineração mais sofisticadas.
-        - Classificação: Classifica os dados em grupos ou classes predefinidos. É muitas vezes referida como aprendizagem supervisionada
         
+        - Classificação: Classifica os dados em grupos ou classes predefinidos. É muitas vezes referida como aprendizagem supervisionada porque as classes são determinadas antes de examinar os dados. Os algoritmos de classificação exigem que as classes sejam definidas com base em valores de atributo dos dados. Reconhecimento de padrões é um tipo de classificação em que um padrão de entrada é classificado em uma de várias classes com base em sua similaridade com essas classes predefinidas.
+        	- EXEMPLO: Uma estação de rastreamento de segurança do aeroporto é usada para determinar se os passageiros são terroristas ou criminosos em potencial. Para fazer isso, o rosto de cada passageiro é digitalizado e seu padrão básico (distancia entre os olhos, tamanho e forma da boca, forma da cabeça, etc) é identificado. Esse padrão é comparado a entradas em um banco de dados para ver se ele corresponde a qualquer padrão que está associado com criminosos conhecidos.
+        
+        - Regreção: Regressão é usada para mapear um item de dados para uma variável preditora de valor real. Na realidade, a regressão envolve a aprendizagem da função que faz este mapeamento.
